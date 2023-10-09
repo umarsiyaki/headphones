@@ -1,0 +1,58 @@
+/* Rest of your CSS remains the same */
+
+/* Add background image to the body */
+body {
+    background-image: url('images/headphones_hero_1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+
+.sidebar {
+    background-color: var(--color-dark-grey);
+    color: var(--color-white);
+    width: 250px;
+    /* Adjust the width as needed */
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.nav {
+    padding: 2rem;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 1rem;
+}
+
+.nav-link {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: var(--font-size-medium);
+    display: block;
+}
+
+/* Header */
+.header {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--color-white);
+    padding: var(--header-padding);
+    text-align: center;
+}
+
+/* Other styles remain the same */
+
+/* Include your other CSS rules here */
